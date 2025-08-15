@@ -1,5 +1,5 @@
 {% set name = "dependabot-cli" %}
-{% set version = "1.70.0" %}
+{% set version = "1.71.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dependabot/cli/archive/v{{ version }}.tar.gz
-  sha256: 9220441599d56d4ea57e2d925bfe6513ab13ad692f359031b2abbfb4096b9007
+  sha256: cc37e707b8e8a84ac51feca35c8acdf18189b5105b979dd1121b04a984128759
 
 build:
   number: 0

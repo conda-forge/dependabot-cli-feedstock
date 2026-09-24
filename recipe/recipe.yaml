@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.91.0"
+  version: "1.93.0"
 
 package:
   name: dependabot-cli
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/dependabot/cli/archive/v${{ version }}.tar.gz
-  sha256: 79b9dd669d39390fe8ea4c8376822774534f0234cffbe7db85bc28aebd23312b
+  sha256: 5f20ce039cde14f642dd89b5580419732e46899236f752ff09dd724626837964
 
 build:
   number: 0
